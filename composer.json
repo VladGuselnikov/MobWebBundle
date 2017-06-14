@@ -18,6 +18,7 @@
     "MIT"
   ],
   "require" : {
+    "nolimits4web/framework7": "^1.6"
   },
   "autoload" : {
     "psr-0" : {
