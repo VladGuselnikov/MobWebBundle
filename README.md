@@ -8,7 +8,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
-$ composer require vladg/framework7-bundle:@dev
+$ composer require superup/mobwebbundle
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -33,7 +33,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new  vladg/framework7-bundle:@dev,
+            new \Superup\MobileWebBundle\SuperupMobileWebBundle()
         );
 
         // ...
@@ -41,3 +41,25 @@ class AppKernel extends Kernel
 
     // ...
 }
+```
+
+Step 3: Install assets
+-------------------------
+Given your server's public directory is named "web", install the public vendor resources
+
+``` bash
+$ .bin/console assets:install web
+```
+
+Optionally, use the --symlink attribute to create links rather than copies of the resources 
+
+``` bash
+$ .bin/console assets:install --symlink web
+```
+Step 4: Usage
+-------------------------
+Refer to the desired files in your HTML template, e.g.
+
+``` html
+<script type="text/javascript" src="{{ asset('bundles/vladgframework7/dist/js/framework7.min.js') }}"></script>
+```
