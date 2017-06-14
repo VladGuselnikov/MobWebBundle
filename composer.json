@@ -25,7 +25,6 @@
     }
   },
   "target-dir" : "Superup/MobWebBundle",
-  ,
   "extra" : {
     "branch-alias" : {
       "dev-master" : "1.0-dev"
