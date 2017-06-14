@@ -33,7 +33,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new \Superup\MobileWebBundle\SuperupMobileWebBundle()
+            new \Superup\MobWebBundle\SuperupMobWebBundle()
         );
 
         // ...
