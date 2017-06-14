@@ -43,18 +43,18 @@ class AppKernel extends Kernel
 }
 ```
 
-Step 3: Install assets
+Step 3: Install assets manually (if needed)
 -------------------------
 Given your server's public directory is named "web", install the public vendor resources
 
 ``` bash
-$ .bin/console assets:install web
+$ ./bin/console assets:install web
 ```
 
 Optionally, use the --symlink attribute to create links rather than copies of the resources 
 
 ``` bash
-$ .bin/console assets:install --symlink web
+$ ./bin/console assets:install --symlink web
 ```
 Step 4: Usage
 -------------------------
