@@ -1,0 +1,35 @@
+{
+  "name" : "superup/mobwebbundle",
+  "description" : "Mobile web bundle for Superup projects",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Vladislav Guselnikov",
+    "email" : "vladg@superup.me"
+  }],
+  "keywords" : [
+    "superup",
+    "mobile",
+    "web",
+    "symfony",
+    "php",
+    "bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Superup\\MobWebBundle" : ""
+    }
+  },
+  "target-dir" : "Superup/MobWebBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0-dev"
+    }
+  }
+}
