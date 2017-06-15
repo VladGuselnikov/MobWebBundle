@@ -65,5 +65,5 @@ Step 4: Usage
 Refer to the desired files in your HTML template, e.g.
 
 ``` html
-<script type="text/javascript" src="{{ asset('bundles/vladgframework7/dist/js/framework7.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/superupmobweb/lodash/lodash.min.js') }}"></script>
 ```
