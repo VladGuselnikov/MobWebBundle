@@ -43,7 +43,7 @@ class AppKernel extends Kernel
 }
 ```
 
-Step 3: Install assets manual (if needed) 
+Step 3: Install assets manually (if needed) 
 -------------------------
 Given your server's public directory is named "web", install the public vendor resources
 
