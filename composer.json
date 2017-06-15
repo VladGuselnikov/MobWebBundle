@@ -18,7 +18,6 @@
     "MIT"
   ],
   "require" : {
-    "nolimits4web/framework7": "^1.6"
   },
   "autoload" : {
     "psr-0" : {
@@ -30,8 +29,5 @@
     "branch-alias" : {
       "dev-master" : "1.0.1-dev"
     }
-  },
-  "config": {
-    "vendor-dir": "Resources/public"
   }
 }
