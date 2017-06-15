@@ -10,6 +10,10 @@ following command to download the latest stable version of this bundle:
 ```console
 $ composer require superup/mobwebbundle
 ```
+Or you can use last development version:
+```console
+$ composer require superup/mobwebbundle:@dev
+```
 
 This command requires you to have Composer installed globally, as explained
 in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
@@ -33,7 +37,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new \Superup\MobWebBundle\SuperupMobWebBundle()
+            new Superup\MobWebBundle\SuperupMobWebBundle()
         );
 
         // ...
